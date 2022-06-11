@@ -1,6 +1,6 @@
 {
-  "Version": "2.1.6",
-  "ReleaseNotes": "Nova Atualização, todas possíveis conexões estão agora disponível para quem tem problemas na sua região como : CONECTA SEM GERAR DADOS OU NAO CONECTA  - LEMBRANDO SEMPRE DE COLOCAR SUA  APN NAS CONFIGURAÇÕES IPV4 CONSULTE SEU MASTER PARA MAIS INFORMAÇÕES ",
+  "Version": "2.1.7",
+  "ReleaseNotes": "Nova Atualização: V2.1.7 > Como mas conexoes Claro, Vivo, Tim e Oi",
   "UrlUpdate": "https://pastebin.com/raw/9BsrJnk9",
   "Sms": "https://pastebin.com/raw/MqLDz0g3",
   "EmailFeedback": "http://email.microx.net.br",
@@ -105,27 +105,6 @@
   },
 
   
-
-  {
-      "Name": "Claro [1]",
-      "FLAG": "claro",
-      "Payload": "GET ws://atendimento.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "atendimento.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-  },
-  {
-     "Name": "Claro [2]",
-      "FLAG": "Claro",
-      "Payload": "GET ws://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "content.akross.com.br",
-      "TlsIP": "content.akross.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-  },
   {
         "Name": "CLARO [SSL] [1]",
         "FLAG": "claro",
@@ -186,7 +165,26 @@
      "ProxyPort": "443",
      "Info": "Tlsws"
   },
-
+  {
+      "Name": "Claro [7]",
+      "FLAG": "claro",
+      "Payload": "GET ws://atendimento.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+  },
+  {
+     "Name": "Claro [8]",
+      "FLAG": "Claro",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+  },
 
 
 
