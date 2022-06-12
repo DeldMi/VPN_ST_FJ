@@ -1,6 +1,6 @@
 {
   "Version": "2.1.7",
-  "ReleaseNotes": "Nova Atualização: V2.1.7 > Como mas conexoes Claro, Vivo, Tim e Oi",
+  "ReleaseNotes": "Nova Atualização: V2.1.7 > Com mas conexões Claro, Vivo, Tim e Oi",
   "UrlUpdate": "https://pastebin.com/raw/9BsrJnk9",
   "Sms": "https://pastebin.com/raw/MqLDz0g3",
   "EmailFeedback": "http://email.microx.net.br",
@@ -241,16 +241,7 @@
   {
        "Name": "TIM [PROXY] [6]",
    "FLAG": "tim",
-   "Payload": "CONNECT [host_port][delay_split] HTTP/1.1 200 Connection established
-   Host: mscperu.serveftp.com
-   User-Agent:www.whatsapp.net
-   X-Online-Host: www.whatsapp.com
-   nConnection: Keep-Alive:www.whatsapp.com
-   User-Agent:www.snapchat.com
-   X-Forward-Host: www.whatsapp.net
-   Content-Location:33333333[crlf]
-   HTTP/1.0[crlf]HOST:www.snapchat.com[crlf][crlf]
-   Connection: keep-alive[crlf]'",
+   "Payload": "CONNECT [host_port][delay_split] HTTP/1.1 200 Connection established Host: mscperu.serveftp.com User-Agent:www.whatsapp.net X-Online-Host: www.whatsapp.com nConnection: Keep-Alive:www.whatsapp.com User-Agent:www.snapchat.com X-Forward-Host: www.whatsapp.net Content-Location:33333333[crlf] Connection: keep-alive[crlf]'",
    "SNI": "",
    "TlsIP": "",
    "ProxyIP": "sv.gdmhost.ga",
