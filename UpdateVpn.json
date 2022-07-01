@@ -26,7 +26,7 @@
   ],
   "Servers": [
     {
-      "Name": "Servidor Brasil [VPN-FJ] 🟢 on",
+      "Name": "Servidor Brasil [VPN-FJ] 🔴 off",
       "TYPE": "Premium",
       "FLAG": "br.png",
       "ServerIP": "proxy.worldofdragon.xyz",
@@ -37,10 +37,10 @@
       "PASS": ""
     },
     {
-      "Name": "Servidor China 🔴 off",
+      "Name": "[Novo] Servidor Brasil [VPN-FJ] 🟢 on",
       "TYPE": "Premium",
-      "FLAG": "kr.png",
-      "ServerIP": "proxy.worldofdragon.xyz",
+      "FLAG": "br.png",
+      "ServerIP": "br1.store4g.site",
       "CheckUser": "",
       "ServerPort": "22",
       "SSLPort": "443",
